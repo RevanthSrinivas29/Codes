@@ -2,7 +2,7 @@ from datetime import date, timedelta
 
 def attcl(i, j):
     c = round((i / j) * 100, 2)
-    diff = max(0, round((75.00 - c) * j / 100))
+    diff = 3*j-4*i
     return c, diff
 
 def clas_assign():
